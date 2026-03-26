@@ -64,7 +64,7 @@ placeSearch("*your-search-term","latitude", "longitude", "radius(m)","your-api-k
 
 Example Use
 
-=placeSearch("Golf Course","51.4977836","-0.1522502","20000","AIzaSyAXOG97LnAl9W_0crRFfK0wrqKiZ-LCHOs",2)
+=placeSearch("Golf Course","51.4977836","-0.1522502","20000","YOUR_API_KEY_HERE",2)
 
 ### Place Details - Google Sheets Function
 
