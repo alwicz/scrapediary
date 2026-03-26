@@ -1,7 +1,7 @@
 ---
 title: "7 Best Workable Jobs Scrapers in 2026 (Updated)"
 slug: "workable-jobs-scrapers"
-date: "2025-05-05T14:39:44.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-05-05T14:39:44.000Z"
 ---

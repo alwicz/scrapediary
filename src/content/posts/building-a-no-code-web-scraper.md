@@ -1,7 +1,7 @@
 ---
 title: "Building a No-Code Web Scraper"
 slug: "building-a-no-code-web-scraper"
-date: "2020-09-08T15:37:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2024-04-18T12:16:54.000Z"
 tags: ["Tools"]

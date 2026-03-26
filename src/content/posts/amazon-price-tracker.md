@@ -1,7 +1,7 @@
 ---
 title: "7 Amazon Price Tracker in 2026 (Updated)"
 slug: "amazon-price-tracker"
-date: "2025-04-25T09:07:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-04-25T11:13:40.000Z"
 ---

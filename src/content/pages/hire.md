@@ -1,7 +1,7 @@
 ---
 title: "Contract Web Scraping"
 slug: "hire"
-date: "2020-09-21T09:48:20.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2020-09-21T09:48:20.000Z"
 ---

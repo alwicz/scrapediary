@@ -1,7 +1,7 @@
 ---
 title: "12 Best Job Scraping Tools in 2026 (Updated)"
 slug: "best-job-scraping-tools"
-date: "2025-02-19T12:46:02.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-02-19T12:46:02.000Z"
 ---

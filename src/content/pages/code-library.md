@@ -1,7 +1,7 @@
 ---
 title: "Code Library"
 slug: "code-library"
-date: "2020-07-28T21:25:22.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2020-09-01T14:58:02.000Z"
 ---

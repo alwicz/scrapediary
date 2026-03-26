@@ -1,7 +1,7 @@
 ---
 title: "6 Best Instagram Comments Scrapers in 2026 (Updated)"
 slug: "best-instagram-comments-scrapers"
-date: "2025-04-15T12:49:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-04-16T04:49:31.000Z"
 ---

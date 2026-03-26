@@ -1,7 +1,7 @@
 ---
 title: "13 Best SERP APIs in 2026 (Updated)"
 slug: "best-serp-apis"
-date: "2025-02-27T09:38:31.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-02-27T09:38:31.000Z"
 ---

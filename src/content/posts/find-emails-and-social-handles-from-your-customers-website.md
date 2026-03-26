@@ -1,7 +1,7 @@
 ---
 title: "Crawl Your Prospects' Website for Contact Details and Social Accounts"
 slug: "find-emails-and-social-handles-from-your-customers-website"
-date: "2020-08-07T12:15:08.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2024-04-17T15:49:03.000Z"
 ---

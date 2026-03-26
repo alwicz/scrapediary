@@ -1,7 +1,7 @@
 ---
 title: "Let an Army of Workers Search Your Customers Financial Statements"
 slug: "let-an-army-of-workers-search-your-competitors-financial-statements"
-date: "2020-08-17T16:42:19.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2024-04-17T15:09:20.000Z"
 ---

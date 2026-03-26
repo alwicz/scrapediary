@@ -1,7 +1,7 @@
 ---
 title: "Use Web Scraping to Fuel Your Sales and Marketing Growth Engine"
 slug: "use-web-scraping-to-fuel-your-sales-and-marketing-growth-engine"
-date: "2020-09-15T15:23:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2024-04-18T12:16:02.000Z"
 tags: ["Lead Generation"]

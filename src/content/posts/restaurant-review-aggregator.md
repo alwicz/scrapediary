@@ -1,7 +1,7 @@
 ---
 title: "5 Best Restaurant Review Aggregators in 2026 (Updated)"
 slug: "restaurant-review-aggregator"
-date: "2025-05-07T07:58:43.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-05-07T07:58:43.000Z"
 ---

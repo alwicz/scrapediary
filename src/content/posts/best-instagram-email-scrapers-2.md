@@ -1,7 +1,7 @@
 ---
 title: "10 Best Instagram Email Scrapers in 2026 (Updated)"
 slug: "best-instagram-email-scrapers-2"
-date: "2025-02-26T09:37:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-03-20T12:54:25.000Z"
 ---

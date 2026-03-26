@@ -1,7 +1,7 @@
 ---
 title: "8 Best Discord Scrapers in 2026 (Updated)"
 slug: "best-discord-scrapers"
-date: "2025-03-25T09:40:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-03-25T10:41:00.000Z"
 ---

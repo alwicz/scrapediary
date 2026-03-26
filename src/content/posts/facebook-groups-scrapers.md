@@ -1,7 +1,7 @@
 ---
 title: "7 Best Facebook Groups Scrapers in 2026 (Updated)"
 slug: "facebook-groups-scrapers"
-date: "2025-08-11T12:37:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-08-12T07:37:27.000Z"
 ---

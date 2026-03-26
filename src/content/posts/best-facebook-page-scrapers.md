@@ -1,7 +1,7 @@
 ---
 title: "8 Best Facebook Page Scrapers in 2026 (Updated)"
 slug: "best-facebook-page-scrapers"
-date: "2025-03-20T09:21:47.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-03-20T09:21:47.000Z"
 ---

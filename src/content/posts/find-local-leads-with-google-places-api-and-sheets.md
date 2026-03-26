@@ -1,7 +1,7 @@
 ---
 title: "Find Prospects with Google Places API and Sheets"
 slug: "find-local-leads-with-google-places-api-and-sheets"
-date: "2020-07-28T21:37:04.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2024-04-17T15:50:15.000Z"
 ---

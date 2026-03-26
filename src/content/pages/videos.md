@@ -1,7 +1,7 @@
 ---
 title: "Video Tutorials"
 slug: "videos"
-date: "2020-07-14T18:52:44.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2020-07-28T21:58:41.000Z"
 ---

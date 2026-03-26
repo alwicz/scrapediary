@@ -1,7 +1,7 @@
 ---
 title: "7 Best Pinterest Scrapers in 2026 (Updated)"
 slug: "best-pinterest-scrapers"
-date: "2025-03-24T10:21:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-03-25T10:27:24.000Z"
 ---

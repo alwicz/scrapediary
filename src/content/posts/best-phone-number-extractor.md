@@ -1,7 +1,7 @@
 ---
 title: "6 Best Phone Number Extractor in 2026 (Updated)"
 slug: "best-phone-number-extractor"
-date: "2025-02-18T09:49:34.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-02-18T09:49:34.000Z"
 ---

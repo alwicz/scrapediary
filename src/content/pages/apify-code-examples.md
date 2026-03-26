@@ -1,7 +1,7 @@
 ---
 title: "Apify Code Examples"
 slug: "apify-code-examples"
-date: "2020-07-15T12:36:43.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2020-07-28T21:20:08.000Z"
 ---

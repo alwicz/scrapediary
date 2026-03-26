@@ -1,7 +1,7 @@
 ---
 title: "Free Email Extractor Online: Extract All Email Addresses"
 slug: "email-extractor"
-date: "2024-07-15T07:53:56.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2024-07-15T07:56:09.000Z"
 ---

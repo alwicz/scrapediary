@@ -1,7 +1,7 @@
 ---
 title: "10 Best Facebook Events Scrapers in 2026 (Updated)"
 slug: "facebook-events-scrapers"
-date: "2025-08-14T10:36:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-08-15T10:36:47.000Z"
 ---

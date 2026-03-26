@@ -1,7 +1,7 @@
 ---
 title: "8 Best Google News Scrapers in 2026 (Updated)"
 slug: "google-news-scrapers"
-date: "2025-04-30T08:35:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-04-30T09:36:49.000Z"
 ---

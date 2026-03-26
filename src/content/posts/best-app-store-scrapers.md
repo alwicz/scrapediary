@@ -1,7 +1,7 @@
 ---
 title: "6 Best App Store Scrapers in 2026 (Updated)"
 slug: "best-app-store-scrapers"
-date: "2025-04-09T10:01:40.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-04-09T10:01:40.000Z"
 ---

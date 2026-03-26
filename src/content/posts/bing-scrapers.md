@@ -1,7 +1,7 @@
 ---
 title: "8 Best Bing Scrapers in 2026 (Updated)"
 slug: "bing-scrapers"
-date: "2025-08-08T11:03:40.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-08-08T11:03:40.000Z"
 ---

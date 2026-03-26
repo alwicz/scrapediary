@@ -1,7 +1,7 @@
 ---
 title: "8 Best Local Business Lead Generators in 2026 (Updated)"
 slug: "local-business-lead-generators"
-date: "2025-04-28T13:38:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-04-29T10:39:25.000Z"
 ---

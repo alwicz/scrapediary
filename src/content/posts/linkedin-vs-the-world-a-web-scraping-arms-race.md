@@ -1,7 +1,7 @@
 ---
 title: "LinkedIn Has Entered Into A Web Scraping Arms Race"
 slug: "linkedin-vs-the-world-a-web-scraping-arms-race"
-date: "2020-07-02T13:58:13.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2020-08-15T12:17:39.000Z"
 ---

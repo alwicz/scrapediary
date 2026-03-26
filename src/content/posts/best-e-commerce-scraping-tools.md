@@ -1,7 +1,7 @@
 ---
 title: "12 Best E-commerce Scraping Tools in 2026 (Updated)"
 slug: "best-e-commerce-scraping-tools"
-date: "2025-02-24T08:48:35.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-02-24T08:48:35.000Z"
 ---

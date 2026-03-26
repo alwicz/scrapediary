@@ -1,7 +1,7 @@
 ---
 title: "7 Best TikTok Scrapers in 2026 (Updated)"
 slug: "best-tiktok-scrapers"
-date: "2025-02-28T12:22:35.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-02-28T12:22:35.000Z"
 ---

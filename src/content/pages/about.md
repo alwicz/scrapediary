@@ -1,7 +1,7 @@
 ---
 title: "About this site"
 slug: "about"
-date: "2024-03-25T10:00:22.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2024-04-18T12:57:57.000Z"
 ---

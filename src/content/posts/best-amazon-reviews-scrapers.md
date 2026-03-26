@@ -1,7 +1,7 @@
 ---
 title: "7 Best Amazon Reviews Scrapers in 2026 (Updated)"
 slug: "best-amazon-reviews-scrapers"
-date: "2025-04-24T07:47:31.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-04-24T07:47:31.000Z"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Introduction to ScrapeDiary - A Personal Story"
 slug: "introduction-to-scrapediary-a-personal-story"
-date: "2020-06-29T22:42:47.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2020-08-15T12:37:38.000Z"
 ---

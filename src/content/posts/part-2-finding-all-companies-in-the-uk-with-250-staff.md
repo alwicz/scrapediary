@@ -1,7 +1,7 @@
 ---
 title: "Part 2 - Finding All Companies In The UK With 250+ Staff"
 slug: "part-2-finding-all-companies-in-the-uk-with-250-staff"
-date: "2020-07-21T15:19:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2020-07-22T14:07:40.000Z"
 ---

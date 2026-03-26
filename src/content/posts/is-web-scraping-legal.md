@@ -1,7 +1,7 @@
 ---
 title: "Is Web Scraping Legal in 2024?"
 slug: "is-web-scraping-legal"
-date: "2024-09-24T05:00:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2024-09-24T08:21:52.000Z"
 tags: ["Legal"]

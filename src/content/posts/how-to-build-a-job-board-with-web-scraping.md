@@ -1,7 +1,7 @@
 ---
 title: "How to Build a Job Board with Web Scraping"
 slug: "how-to-build-a-job-board-with-web-scraping"
-date: "2020-10-18T15:18:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Bryce Davies"
 updatedDate: "2024-04-18T12:07:43.000Z"
 tags: ["Job Boards", "web scraping"]

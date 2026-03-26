@@ -1,7 +1,7 @@
 ---
 title: "14 Best Web Scraping API in 2026 (Updated)"
 slug: "best-web-scraping-api"
-date: "2025-03-18T08:29:00.000Z"
+date: "2026-03-26T00:00:00.000Z"
 author: "Oliver Lompart"
 updatedDate: "2025-03-18T10:37:47.000Z"
 ---
