@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
+const base = import.meta.env.BASE_URL;
 const posts = (await getCollection('posts'))
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
@@ -33,7 +34,7 @@ function readingTime(slug: string) {
     <div class="gh-inner">
       {latestPost && (
         <article class="gh-latest gh-card post no-image">
-          <a class="gh-card-link" href={`/posts/${latestPost.data.slug}/`}>
+          <a class="gh-card-link" href={`${base}${latestPost.data.slug}/`}>
             <header class="gh-card-header">
               <div class="gh-article-meta">
                 <span class="gh-card-date">Latest &mdash; <time datetime={latestPost.data.date.slice(0,10)}>{formatDate(latestPost.data.date)}</time></span>
@@ -54,7 +55,7 @@ function readingTime(slug: string) {
           <div class="gh-feed">
             {olderPosts.map(post => (
               <article class="gh-card post no-image">
-                <a class="gh-card-link" href={`/posts/${post.data.slug}/`}>
+                <a class="gh-card-link" href={`${base}${post.data.slug}/`}>
                   <header class="gh-card-header">
                     <h2 class="gh-card-title">{post.data.title}</h2>
                   </header>

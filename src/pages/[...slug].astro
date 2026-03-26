@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const pages = await getCollection('pages');
+  const sortedPosts = posts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+  const postPaths = sortedPosts.map((post, index) => ({
+    params: { slug: post.data.slug },
+    props: {
+      entry: post,
+      type: 'post' as const,
+      prevPost: sortedPosts[index + 1] || null,
+      nextPost: sortedPosts[index - 1] || null,
+    },
+  }));
+
+  const pagePaths = pages.map(page => ({
+    params: { slug: page.data.slug },
+    props: {
+      entry: page,
+      type: 'page' as const,
+      prevPost: null,
+      nextPost: null,
+    },
+  }));
+
+  return [...postPaths, ...pagePaths];
+}
+
+const { entry, type, prevPost, nextPost } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL;
+
+function formatDate(dateStr: string) {
+  return new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+const isPost = type === 'post';
+---
+
+{isPost ? (
+  <BaseLayout title={entry.data.title} bodyClass="post-template is-head-stacked">
+    <main id="gh-main" class="gh-main">
+      <article class="gh-article post no-image">
+
+        <header class="gh-article-header gh-canvas">
+          <span class="gh-article-meta">
+            By <a href={`${base}author/${entry.data.author.toLowerCase().split(' ')[0]}/`}>{entry.data.author}</a>
+            {entry.data.tags.length > 0 && (
+              <>
+                {' '}in <a class="gh-article-tag" href={`${base}tag/${entry.data.tags[0].toLowerCase().replace(/\s+/g, '-')}/`}>{entry.data.tags[0]}</a>
+              </>
+            )}
+            &mdash;
+            <time datetime={entry.data.date.slice(0,10)}>{formatDate(entry.data.date)}</time>
+          </span>
+          <h1 class="gh-article-title">{entry.data.title}</h1>
+        </header>
+
+        <div class="gh-content gh-canvas">
+          <Content />
+        </div>
+
+        <footer class="gh-article-footer gh-canvas">
+          <nav class="gh-navigation">
+            <div class="gh-navigation-previous">
+              {prevPost && (
+                <a class="gh-navigation-link" href={`${base}${prevPost.data.slug}/`}>
+                  <span class="gh-navigation-label">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="19" y1="12" x2="5" y2="12"></line>
+                      <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg> Previous issue
+                  </span>
+                  <h4 class="gh-navigation-title">{prevPost.data.title}</h4>
+                </a>
+              )}
+            </div>
+
+            <div class="gh-navigation-middle"></div>
+
+            <div class="gh-navigation-next">
+              {nextPost && (
+                <a class="gh-navigation-link" href={`${base}${nextPost.data.slug}/`}>
+                  <span class="gh-navigation-label">Next issue <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </span>
+                  <h4 class="gh-navigation-title">{nextPost.data.title}</h4>
+                </a>
+              )}
+            </div>
+          </nav>
+        </footer>
+
+      </article>
+    </main>
+  </BaseLayout>
+) : (
+  <BaseLayout title={`${entry.data.title} - ScrapeDiary`} bodyClass="page-template is-head-stacked">
+    <main id="gh-main" class="gh-main">
+      <article class="gh-article no-image">
+
+        <header class="gh-article-header gh-canvas">
+          <h1 class="gh-article-title">{entry.data.title}</h1>
+        </header>
+
+        <div class="gh-content gh-canvas">
+          <Content />
+        </div>
+
+      </article>
+    </main>
+  </BaseLayout>
+)}

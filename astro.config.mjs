@@ -3,7 +3,8 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://www.scrapediary.com',
+  site: 'https://alwicz.github.io',
+  base: '/scrapediary/',
   output: 'static',
   integrations: [sitemap()],
 });

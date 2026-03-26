@@ -10,6 +10,8 @@ const {
   description = 'Guides for growing your company using growth hacking, web scraping and automation. Find more customers and close more sales in less time.',
   bodyClass = 'is-head-stacked',
 } = Astro.props;
+
+const base = import.meta.env.BASE_URL;
 ---
 
 <!doctype html>
@@ -18,8 +20,8 @@ const {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{title}</title>
-    <link rel="stylesheet" href="/screen.css">
-    <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+    <link rel="stylesheet" href={`${base}screen.css`}>
+    <link rel="stylesheet" href={`${base}pagefind/pagefind-ui.css`}>
     <meta name="description" content={description}>
     <link rel="canonical" href={Astro.url.href}>
     <meta name="generator" content={Astro.generator}>
@@ -87,7 +89,7 @@ const {
         <div class="gh-head-inner gh-inner">
             <div class="gh-head-brand">
                 <div class="gh-head-brand-wrapper">
-                    <a class="gh-head-logo" href="/">
+                    <a class="gh-head-logo" href={base}>
                         ScrapeDiary - Ultimate Guide to Automating Revenue Growth
                     </a>
                 </div>
@@ -99,10 +101,10 @@ const {
 
             <nav class="gh-head-menu">
                 <ul class="nav">
-                    <li class="nav-home"><a href="/">Home</a></li>
-                    <li class="nav-video-tutorials"><a href="/videos">Video Tutorials</a></li>
-                    <li class="nav-code-library"><a href="/code-library">Code Library</a></li>
-                    <li class="nav-tools"><a href="/tools">Tools</a></li>
+                    <li class="nav-home"><a href={base}>Home</a></li>
+                    <li class="nav-video-tutorials"><a href={`${base}videos`}>Video Tutorials</a></li>
+                    <li class="nav-code-library"><a href={`${base}code-library`}>Code Library</a></li>
+                    <li class="nav-tools"><a href={`${base}tools`}>Tools</a></li>
                 </ul>
             </nav>
 
@@ -133,7 +135,18 @@ const {
     </div>
 </div>
 
-<script is:inline src="/pagefind/pagefind-ui.js"></script>
+<script is:inline>
+  // Load pagefind JS from same path as its CSS
+  (function() {
+    var link = document.querySelector('link[href*="pagefind"]');
+    if (link) {
+      var s = document.createElement('script');
+      s.src = link.href.replace('pagefind-ui.css', 'pagefind-ui.js');
+      s.onload = function() { initSearch(); };
+      document.head.appendChild(s);
+    }
+  })();
+</script>
 <script is:inline>
   // Mark body as loaded so nav items become visible
   document.body.classList.add('is-dropdown-loaded');
@@ -149,13 +162,16 @@ const {
   // Search
   var overlay = document.getElementById('search-overlay');
 
-  if (typeof PagefindUI !== 'undefined') {
-    new PagefindUI({
-      element: '#search',
-      showSubResults: false,
-      showImages: false,
-    });
-  }
+  window.initSearch = function() {
+    if (typeof PagefindUI !== 'undefined') {
+      new PagefindUI({
+        element: '#search',
+        showSubResults: false,
+        showImages: false,
+      });
+    }
+  };
+  if (typeof PagefindUI !== 'undefined') { initSearch(); }
 
   function openSearch() {
     overlay.classList.add('active');
