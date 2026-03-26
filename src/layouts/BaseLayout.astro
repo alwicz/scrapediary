@@ -1,0 +1,186 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  bodyClass?: string;
+}
+
+const {
+  title,
+  description = 'Guides for growing your company using growth hacking, web scraping and automation. Find more customers and close more sales in less time.',
+  bodyClass = 'is-head-stacked',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{title}</title>
+    <link rel="stylesheet" href="/screen.css">
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+    <meta name="description" content={description}>
+    <link rel="canonical" href={Astro.url.href}>
+    <meta name="generator" content={Astro.generator}>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/prism.min.js"></script>
+    <style>:root {--ghost-accent-color: #15171A;}</style>
+    <style>
+      /* Search modal overlay */
+      .search-overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(4px);
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 10vh;
+      }
+      .search-overlay.active {
+        display: flex;
+      }
+      .search-modal {
+        background: #fff;
+        border-radius: 8px;
+        width: 90%;
+        max-width: 680px;
+        max-height: 70vh;
+        overflow-y: auto;
+        box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+      }
+      /* Pagefind UI overrides to match Ghost style */
+      .search-modal .pagefind-ui__search-input {
+        font-size: 1.8rem;
+        padding: 16px 20px;
+        border: none;
+        border-bottom: 1px solid #e6e6e6;
+        border-radius: 8px 8px 0 0;
+        outline: none;
+        width: 100%;
+      }
+      .search-modal .pagefind-ui__search-clear {
+        top: 16px;
+        right: 16px;
+      }
+      .search-modal .pagefind-ui__form::before {
+        top: 18px;
+        left: 20px;
+      }
+      .search-modal .pagefind-ui__result-link {
+        color: var(--color-darker-gray);
+        font-weight: 600;
+      }
+      .search-modal .pagefind-ui__result {
+        padding: 12px 20px;
+        border-top: 1px solid #f0f0f0;
+      }
+    </style>
+</head>
+
+<body class={bodyClass}>
+<div class="gh-site">
+
+    <header id="gh-head" class="gh-head gh-outer">
+        <div class="gh-head-inner gh-inner">
+            <div class="gh-head-brand">
+                <div class="gh-head-brand-wrapper">
+                    <a class="gh-head-logo" href="/">
+                        ScrapeDiary - Ultimate Guide to Automating Revenue Growth
+                    </a>
+                </div>
+                <button class="gh-search gh-icon-btn" aria-label="Search this site" id="search-btn-mobile">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </button>
+                <button class="gh-burger"></button>
+            </div>
+
+            <nav class="gh-head-menu">
+                <ul class="nav">
+                    <li class="nav-home"><a href="/">Home</a></li>
+                    <li class="nav-video-tutorials"><a href="/videos">Video Tutorials</a></li>
+                    <li class="nav-code-library"><a href="/code-library">Code Library</a></li>
+                    <li class="nav-tools"><a href="/tools">Tools</a></li>
+                </ul>
+            </nav>
+
+            <div class="gh-head-actions">
+                <button class="gh-search gh-icon-btn" aria-label="Search this site" id="search-btn-desktop">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <slot />
+
+    <footer class="gh-foot no-menu gh-outer">
+        <div class="gh-foot-inner gh-inner">
+            <div class="gh-copyright">
+                ScrapeDiary - Ultimate Guide to Automating Revenue Growth &copy; {new Date().getFullYear()}
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<!-- Search modal -->
+<div class="search-overlay" id="search-overlay">
+    <div class="search-modal">
+        <div id="search"></div>
+    </div>
+</div>
+
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
+<script is:inline>
+  // Mark body as loaded so nav items become visible
+  document.body.classList.add('is-dropdown-loaded');
+
+  // Ghost theme burger menu toggle
+  var burger = document.querySelector('.gh-burger');
+  if (burger) {
+    burger.addEventListener('click', function () {
+      document.getElementById('gh-head').classList.toggle('gh-head-open');
+    });
+  }
+
+  // Search
+  var overlay = document.getElementById('search-overlay');
+
+  if (typeof PagefindUI !== 'undefined') {
+    new PagefindUI({
+      element: '#search',
+      showSubResults: false,
+      showImages: false,
+    });
+  }
+
+  function openSearch() {
+    overlay.classList.add('active');
+    var input = overlay.querySelector('.pagefind-ui__search-input');
+    if (input) input.focus();
+  }
+
+  function closeSearch() {
+    overlay.classList.remove('active');
+  }
+
+  document.getElementById('search-btn-desktop').addEventListener('click', openSearch);
+  document.getElementById('search-btn-mobile').addEventListener('click', openSearch);
+
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) closeSearch();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeSearch();
+    if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+      e.preventDefault();
+      openSearch();
+    }
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages.map(page => ({
+    params: { slug: page.data.slug },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { Content } = await render(page);
+---
+
+<BaseLayout title={`${page.data.title} - ScrapeDiary`} bodyClass="page-template is-head-stacked">
+  <main id="gh-main" class="gh-main">
+    <article class="gh-article no-image">
+
+      <header class="gh-article-header gh-canvas">
+        <h1 class="gh-article-title">{page.data.title}</h1>
+      </header>
+
+      <div class="gh-content gh-canvas">
+        <Content />
+      </div>
+
+    </article>
+  </main>
+</BaseLayout>

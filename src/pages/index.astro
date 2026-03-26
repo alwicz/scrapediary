@@ -1,0 +1,101 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts'))
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const latestPost = posts[0];
+const olderPosts = posts.slice(1);
+
+const allTags = [...new Set(posts.flatMap(p => p.data.tags))];
+const tagCounts = allTags.map(tag => ({
+  name: tag,
+  slug: tag.toLowerCase().replace(/\s+/g, '-'),
+  count: posts.filter(p => p.data.tags.includes(tag)).length,
+}));
+
+function formatDate(dateStr: string) {
+  return new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function formatDateShort(dateStr: string) {
+  return new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function readingTime(slug: string) {
+  return '5 min read';
+}
+---
+
+<BaseLayout title="ScrapeDiary - Ultimate Guide to Automating Revenue Growth" bodyClass="home-template is-head-stacked">
+  <main id="gh-main" class="gh-main gh-outer">
+    <div class="gh-inner">
+      {latestPost && (
+        <article class="gh-latest gh-card post no-image">
+          <a class="gh-card-link" href={`/posts/${latestPost.data.slug}/`}>
+            <header class="gh-card-header">
+              <div class="gh-article-meta">
+                <span class="gh-card-date">Latest &mdash; <time datetime={latestPost.data.date.slice(0,10)}>{formatDate(latestPost.data.date)}</time></span>
+              </div>
+              <h2 class="gh-article-title gh-card-title">{latestPost.data.title}</h2>
+            </header>
+            <footer class="gh-card-meta">
+              <span class="gh-card-duration">5 min read</span>
+            </footer>
+          </a>
+        </article>
+      )}
+
+      <div class="gh-wrapper">
+        <section class="gh-section">
+          <h2 class="gh-section-title">More issues</h2>
+
+          <div class="gh-feed">
+            {olderPosts.map(post => (
+              <article class="gh-card post no-image">
+                <a class="gh-card-link" href={`/posts/${post.data.slug}/`}>
+                  <header class="gh-card-header">
+                    <h2 class="gh-card-title">{post.data.title}</h2>
+                  </header>
+                  <footer class="gh-card-meta">
+                    <time class="gh-card-date" datetime={post.data.date.slice(0,10)}>{formatDateShort(post.data.date)}</time>
+                    <span class="gh-card-duration">5 min read</span>
+                  </footer>
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <aside class="gh-sidebar">
+          <section class="gh-section">
+            <h2 class="gh-section-title">About</h2>
+            <div class="gh-about">
+              <section class="gh-about-wrapper">
+                <h3 class="gh-about-title">ScrapeDiary - Ultimate Guide to Automating Revenue Growth</h3>
+                <p class="gh-about-description">Guides for growing your company using growth hacking, web scraping and automation. Find more customers and close more sales in less time.</p>
+              </section>
+            </div>
+          </section>
+
+          {tagCounts.length > 0 && (
+            <section class="gh-section">
+              <h3 class="gh-section-title">Topics</h3>
+              <div class="gh-topic">
+                {tagCounts.map(tag => (
+                  <a class="gh-topic-item" href={`/tag/${tag.slug}/`}>
+                    <h3 class="gh-topic-name">{tag.name}</h3>
+                    <span class="gh-topic-count">
+                      {tag.count} {tag.count === 1 ? 'issue' : 'issues'}
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </section>
+          )}
+        </aside>
+      </div>
+    </div>
+  </main>
+</BaseLayout>

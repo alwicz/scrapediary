@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const sorted = posts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+  return sorted.map((post, index) => ({
+    params: { slug: post.data.slug },
+    props: {
+      post,
+      prevPost: sorted[index + 1] || null,
+      nextPost: sorted[index - 1] || null,
+    },
+  }));
+}
+
+const { post, prevPost, nextPost } = Astro.props;
+const { Content } = await render(post);
+
+function formatDate(dateStr: string) {
+  return new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+---
+
+<BaseLayout title={post.data.title} bodyClass="post-template is-head-stacked">
+  <main id="gh-main" class="gh-main">
+    <article class="gh-article post no-image">
+
+      <header class="gh-article-header gh-canvas">
+        <span class="gh-article-meta">
+          By <a href={`/author/${post.data.author.toLowerCase().split(' ')[0]}/`}>{post.data.author}</a>
+          {post.data.tags.length > 0 && (
+            <>
+              {' '}in <a class="gh-article-tag" href={`/tag/${post.data.tags[0].toLowerCase().replace(/\s+/g, '-')}/`}>{post.data.tags[0]}</a>
+            </>
+          )}
+          &mdash;
+          <time datetime={post.data.date.slice(0,10)}>{formatDate(post.data.date)}</time>
+        </span>
+        <h1 class="gh-article-title">{post.data.title}</h1>
+      </header>
+
+      <div class="gh-content gh-canvas">
+        <Content />
+      </div>
+
+      <footer class="gh-article-footer gh-canvas">
+        <nav class="gh-navigation">
+          <div class="gh-navigation-previous">
+            {prevPost && (
+              <a class="gh-navigation-link" href={`/posts/${prevPost.data.slug}/`}>
+                <span class="gh-navigation-label">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                  </svg> Previous issue
+                </span>
+                <h4 class="gh-navigation-title">{prevPost.data.title}</h4>
+              </a>
+            )}
+          </div>
+
+          <div class="gh-navigation-middle"></div>
+
+          <div class="gh-navigation-next">
+            {nextPost && (
+              <a class="gh-navigation-link" href={`/posts/${nextPost.data.slug}/`}>
+                <span class="gh-navigation-label">Next issue <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </span>
+                <h4 class="gh-navigation-title">{nextPost.data.title}</h4>
+              </a>
+            )}
+          </div>
+        </nav>
+      </footer>
+
+    </article>
+  </main>
+</BaseLayout>
