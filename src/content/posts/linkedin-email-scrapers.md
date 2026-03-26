@@ -1,5 +1,5 @@
 ---
-title: "9 Best LinkedIn Email Scrapers in 2025 (Updated)"
+title: "9 Best LinkedIn Email Scrapers in 2026 (Updated)"
 slug: "linkedin-email-scrapers"
 date: "2025-08-07T09:26:32.000Z"
 author: "Oliver Lompart"

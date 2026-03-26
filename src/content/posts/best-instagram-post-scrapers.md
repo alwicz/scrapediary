@@ -1,5 +1,5 @@
 ---
-title: "7 Best Instagram Post Scrapers in 2025 (Updated)"
+title: "7 Best Instagram Post Scrapers in 2026 (Updated)"
 slug: "best-instagram-post-scrapers"
 date: "2025-04-16T08:40:00.000Z"
 author: "Oliver Lompart"

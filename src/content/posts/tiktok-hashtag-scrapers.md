@@ -1,5 +1,5 @@
 ---
-title: "9 Best TikTok Hashtag Scrapers in 2025 (Updated)"
+title: "9 Best TikTok Hashtag Scrapers in 2026 (Updated)"
 slug: "tiktok-hashtag-scrapers"
 date: "2025-08-13T10:00:05.000Z"
 author: "Oliver Lompart"

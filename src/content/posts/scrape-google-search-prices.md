@@ -1,5 +1,5 @@
 ---
-title: "8 Best Scrape Google Search Prices in 2025 (Updated)"
+title: "8 Best Scrape Google Search Prices in 2026 (Updated)"
 slug: "scrape-google-search-prices"
 date: "2025-04-25T11:13:21.000Z"
 author: "Oliver Lompart"

@@ -1,5 +1,5 @@
 ---
-title: "8 Best TikTok Comments Scrapers in 2025 (Updated)"
+title: "8 Best TikTok Comments Scrapers in 2026 (Updated)"
 slug: "tiktok-comments-scrapers"
 date: "2025-08-12T07:37:44.000Z"
 author: "Oliver Lompart"

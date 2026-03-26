@@ -1,5 +1,5 @@
 ---
-title: "9 Best Contact Details Scrapers in 2025 (Updated)"
+title: "9 Best Contact Details Scrapers in 2026 (Updated)"
 slug: "contact-details"
 date: "2025-08-05T08:38:09.000Z"
 author: "Oliver Lompart"

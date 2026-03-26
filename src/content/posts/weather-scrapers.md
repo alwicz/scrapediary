@@ -1,5 +1,5 @@
 ---
-title: "7 Best Weather Scrapers in 2025 (Updated)"
+title: "7 Best Weather Scrapers in 2026 (Updated)"
 slug: "weather-scrapers"
 date: "2025-05-02T08:48:00.000Z"
 author: "Oliver Lompart"

@@ -1,5 +1,5 @@
 ---
-title: "11 Best Tripadvisor Scrapers in 2025 (Updated)"
+title: "11 Best Tripadvisor Scrapers in 2026 (Updated)"
 slug: "best-tripadvisor-scrapers"
 date: "2025-04-09T06:49:21.000Z"
 author: "Oliver Lompart"

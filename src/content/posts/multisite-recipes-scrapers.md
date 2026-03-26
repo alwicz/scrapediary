@@ -1,5 +1,5 @@
 ---
-title: "6 Best Multisite Recipes Scrapers in 2025 (Updated)"
+title: "6 Best Multisite Recipes Scrapers in 2026 (Updated)"
 slug: "multisite-recipes-scrapers"
 date: "2025-04-29T10:54:00.000Z"
 author: "Oliver Lompart"

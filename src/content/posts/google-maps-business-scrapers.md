@@ -1,5 +1,5 @@
 ---
-title: "9 Best Google Maps Business Scrapers in 2025 (Updated)"
+title: "9 Best Google Maps Business Scrapers in 2026 (Updated)"
 slug: "google-maps-business-scrapers"
 date: "2025-04-28T09:31:00.000Z"
 author: "Oliver Lompart"

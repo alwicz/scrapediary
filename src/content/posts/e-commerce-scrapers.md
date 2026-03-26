@@ -1,5 +1,5 @@
 ---
-title: "6 Best E-Commerce Scrapers in 2025 (Updated)"
+title: "6 Best E-Commerce Scrapers in 2026 (Updated)"
 slug: "e-commerce-scrapers"
 date: "2025-05-02T10:48:55.000Z"
 author: "Oliver Lompart"

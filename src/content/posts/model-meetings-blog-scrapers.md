@@ -1,5 +1,5 @@
 ---
-title: "6 Best Model Meetings Blog Scrapers in 2025 (Updated)"
+title: "6 Best Model Meetings Blog Scrapers in 2026 (Updated)"
 slug: "model-meetings-blog-scrapers"
 date: "2025-05-09T09:44:00.000Z"
 author: "Oliver Lompart"

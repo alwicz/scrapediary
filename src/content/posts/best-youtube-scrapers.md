@@ -1,5 +1,5 @@
 ---
-title: "6 Best Youtube Scrapers in 2025 (Updated)"
+title: "6 Best Youtube Scrapers in 2026 (Updated)"
 slug: "best-youtube-scrapers"
 date: "2025-03-03T18:16:21.000Z"
 author: "Oliver Lompart"

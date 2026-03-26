@@ -1,5 +1,5 @@
 ---
-title: "8 Best Price Scraping Tools in 2025 (Updated)"
+title: "8 Best Price Scraping Tools in 2026 (Updated)"
 slug: "best-price-scraping-tools"
 date: "2025-02-19T09:09:01.000Z"
 author: "Oliver Lompart"

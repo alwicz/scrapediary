@@ -1,5 +1,5 @@
 ---
-title: "9 Best Twitter Scrapers in 2025 (Updated)"
+title: "9 Best Twitter Scrapers in 2026 (Updated)"
 slug: "best-twitter-scrapers"
 date: "2025-02-25T10:33:10.000Z"
 author: "Oliver Lompart"

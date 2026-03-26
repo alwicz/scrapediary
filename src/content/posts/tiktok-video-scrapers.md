@@ -1,5 +1,5 @@
 ---
-title: "8 Best TikTok Video Scrapers in 2025 (Updated)"
+title: "8 Best TikTok Video Scrapers in 2026 (Updated)"
 slug: "tiktok-video-scrapers"
 date: "2025-08-13T09:59:54.000Z"
 author: "Oliver Lompart"

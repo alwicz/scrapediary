@@ -1,5 +1,5 @@
 ---
-title: "7 Best Indeed Scrapers in 2025 (Updated)"
+title: "7 Best Indeed Scrapers in 2026 (Updated)"
 slug: "indeed-scrapers"
 date: "2025-08-05T08:38:33.000Z"
 author: "Oliver Lompart"

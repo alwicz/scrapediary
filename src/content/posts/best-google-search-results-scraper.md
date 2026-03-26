@@ -1,5 +1,5 @@
 ---
-title: "12 Best Google Search Results Scraper in 2025 (Updated)"
+title: "12 Best Google Search Results Scraper in 2026 (Updated)"
 slug: "best-google-search-results-scraper"
 date: "2025-03-04T10:55:36.000Z"
 author: "Oliver Lompart"

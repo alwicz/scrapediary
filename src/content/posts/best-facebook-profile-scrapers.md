@@ -1,5 +1,5 @@
 ---
-title: "8 Best Facebook Profile Scrapers in 2025 (Updated)"
+title: "8 Best Facebook Profile Scrapers in 2026 (Updated)"
 slug: "best-facebook-profile-scrapers"
 date: "2025-03-19T09:51:00.000Z"
 author: "Oliver Lompart"

@@ -1,5 +1,5 @@
 ---
-title: "6 Best Hotel Review Aggregator in 2025 (Updated)"
+title: "6 Best Hotel Review Aggregator in 2026 (Updated)"
 slug: "hotel-review-aggregator"
 date: "2025-05-07T11:45:16.000Z"
 author: "Oliver Lompart"

@@ -1,5 +1,5 @@
 ---
-title: "7 Amazon Price Tracker in 2025 (Updated)"
+title: "7 Amazon Price Tracker in 2026 (Updated)"
 slug: "amazon-price-tracker"
 date: "2025-04-25T09:07:00.000Z"
 author: "Oliver Lompart"

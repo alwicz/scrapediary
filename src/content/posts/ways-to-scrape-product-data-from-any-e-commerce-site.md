@@ -1,5 +1,5 @@
 ---
-title: "7 Best ways to Scrape product data from any e-commerce site in 2025 (Updated)"
+title: "7 Best ways to Scrape product data from any e-commerce site in 2026 (Updated)"
 slug: "ways-to-scrape-product-data-from-any-e-commerce-site"
 date: "2025-05-05T09:39:00.000Z"
 author: "Oliver Lompart"

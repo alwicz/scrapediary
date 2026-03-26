@@ -1,5 +1,5 @@
 ---
-title: "8 Best Trustpilot Scrapers in 2025 (Updated)"
+title: "8 Best Trustpilot Scrapers in 2026 (Updated)"
 slug: "trustpilot-scrapers"
 date: "2025-08-04T12:26:37.000Z"
 author: "Oliver Lompart"

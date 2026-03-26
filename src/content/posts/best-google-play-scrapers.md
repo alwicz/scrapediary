@@ -1,5 +1,5 @@
 ---
-title: "10 Best Google Play Scrapers in 2025 (Updated)"
+title: "10 Best Google Play Scrapers in 2026 (Updated)"
 slug: "best-google-play-scrapers"
 date: "2025-04-08T09:02:00.000Z"
 author: "Oliver Lompart"

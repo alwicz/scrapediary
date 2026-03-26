@@ -1,5 +1,5 @@
 ---
-title: "7 Best Website Archiver in 2025 (Updated)"
+title: "7 Best Website Archiver in 2026 (Updated)"
 slug: "website-archiver"
 date: "2025-05-06T14:04:00.000Z"
 author: "Oliver Lompart"

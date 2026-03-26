@@ -1,5 +1,5 @@
 ---
-title: "10 Best Wikipedia Scrapers in 2025 (Updated)"
+title: "10 Best Wikipedia Scrapers in 2026 (Updated)"
 slug: "best-wikipedia-scrapers"
 date: "2025-03-17T13:19:00.000Z"
 author: "Oliver Lompart"

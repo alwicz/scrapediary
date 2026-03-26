@@ -1,5 +1,5 @@
 ---
-title: "7 Best Smart Article Extractors in 2025 (Updated)"
+title: "7 Best Smart Article Extractors in 2026 (Updated)"
 slug: "smart-article-extractors"
 date: "2025-04-30T09:41:06.000Z"
 author: "Oliver Lompart"

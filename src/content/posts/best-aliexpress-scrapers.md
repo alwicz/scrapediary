@@ -1,5 +1,5 @@
 ---
-title: "10 Best Aliexpress Scrapers in 2025 (Updated)"
+title: "10 Best Aliexpress Scrapers in 2026 (Updated)"
 slug: "best-aliexpress-scrapers"
 date: "2025-04-11T07:31:00.000Z"
 author: "Oliver Lompart"

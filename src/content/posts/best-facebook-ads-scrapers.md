@@ -1,5 +1,5 @@
 ---
-title: "8 Best Facebook Ads Scrapers in 2025 (Updated)"
+title: "8 Best Facebook Ads Scrapers in 2026 (Updated)"
 slug: "best-facebook-ads-scrapers"
 date: "2025-03-18T10:37:22.000Z"
 author: "Oliver Lompart"

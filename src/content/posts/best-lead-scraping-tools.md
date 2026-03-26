@@ -1,5 +1,5 @@
 ---
-title: "9 Best Lead Scraping Tools in 2025 (Updated)"
+title: "9 Best Lead Scraping Tools in 2026 (Updated)"
 slug: "best-lead-scraping-tools"
 date: "2025-02-12T11:44:17.000Z"
 author: "Oliver Lompart"

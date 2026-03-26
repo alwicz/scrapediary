@@ -1,5 +1,5 @@
 ---
-title: "7 Best Facebook Marketplace Scrapers in 2025 (Updated)"
+title: "7 Best Facebook Marketplace Scrapers in 2026 (Updated)"
 slug: "facebook-marketplace-scrapers"
 date: "2025-08-07T07:26:00.000Z"
 author: "Oliver Lompart"

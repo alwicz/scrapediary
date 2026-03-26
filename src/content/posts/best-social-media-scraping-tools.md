@@ -1,5 +1,5 @@
 ---
-title: "10 Best Social Media Scraping Tools in 2025 (Updated)"
+title: "10 Best Social Media Scraping Tools in 2026 (Updated)"
 slug: "best-social-media-scraping-tools"
 date: "2025-03-04T09:10:00.000Z"
 author: "Oliver Lompart"

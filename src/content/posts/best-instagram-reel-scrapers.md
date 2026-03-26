@@ -1,5 +1,5 @@
 ---
-title: "9 Best Instagram Reel Scrapers in 2025 (Updated)"
+title: "9 Best Instagram Reel Scrapers in 2026 (Updated)"
 slug: "best-instagram-reel-scrapers"
 date: "2025-04-15T04:48:00.000Z"
 author: "Oliver Lompart"

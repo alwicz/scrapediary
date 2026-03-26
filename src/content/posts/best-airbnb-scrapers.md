@@ -1,5 +1,5 @@
 ---
-title: "9 Best Airbnb Scrapers in 2025 (Updated)"
+title: "9 Best Airbnb Scrapers in 2026 (Updated)"
 slug: "best-airbnb-scrapers"
 date: "2025-04-07T08:55:00.000Z"
 author: "Oliver Lompart"

@@ -1,5 +1,5 @@
 ---
-title: "8 Best Meetup Scrapers in 2025 (Updated)"
+title: "8 Best Meetup Scrapers in 2026 (Updated)"
 slug: "best-meetup-scrapers"
 date: "2025-04-23T13:00:30.000Z"
 author: "Oliver Lompart"

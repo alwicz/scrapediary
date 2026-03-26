@@ -1,5 +1,5 @@
 ---
-title: "8 Best LinkedIn Jobs Scrapers in 2025 (Updated)"
+title: "8 Best LinkedIn Jobs Scrapers in 2026 (Updated)"
 slug: "linkedin-jobs-scrapers"
 date: "2025-05-06T09:03:00.000Z"
 author: "Oliver Lompart"

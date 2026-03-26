@@ -1,5 +1,5 @@
 ---
-title: "8 Best Etsy Scrapers in 2025 (Updated)"
+title: "8 Best Etsy Scrapers in 2026 (Updated)"
 slug: "best-etsy-scrapers"
 date: "2025-04-10T11:56:25.000Z"
 author: "Oliver Lompart"

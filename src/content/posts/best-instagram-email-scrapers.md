@@ -1,5 +1,5 @@
 ---
-title: "\"9 Best Instagram Email Scrapers in 2025: Ranked & Tested\""
+title: "\"9 Best Instagram Email Scrapers in 2026: Ranked & Tested\""
 slug: "best-instagram-email-scrapers"
 date: "2025-02-18T09:48:45.000Z"
 author: "Oliver Lompart"

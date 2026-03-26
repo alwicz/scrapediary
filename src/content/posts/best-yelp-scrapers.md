@@ -1,5 +1,5 @@
 ---
-title: "7 Best Yelp Scrapers in 2025 (Updated)"
+title: "7 Best Yelp Scrapers in 2026 (Updated)"
 slug: "best-yelp-scrapers"
 date: "2025-03-17T08:12:00.000Z"
 author: "Oliver Lompart"

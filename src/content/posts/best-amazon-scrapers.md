@@ -1,5 +1,5 @@
 ---
-title: "7 Best Amazon Scrapers in 2025 (Updated)"
+title: "7 Best Amazon Scrapers in 2026 (Updated)"
 slug: "best-amazon-scrapers"
 date: "2025-03-05T08:26:01.000Z"
 author: "Oliver Lompart"

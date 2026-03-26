@@ -1,5 +1,5 @@
 ---
-title: "6 Best LinkedIn People Search Scrapers in 2025 (Updated)"
+title: "6 Best LinkedIn People Search Scrapers in 2026 (Updated)"
 slug: "linkedin-people-search-scrapers"
 date: "2025-08-08T07:42:37.000Z"
 author: "Oliver Lompart"

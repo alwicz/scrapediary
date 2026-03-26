@@ -1,5 +1,5 @@
 ---
-title: "7 Best Glassdoor Jobs Scrapers in 2025 (Updated)"
+title: "7 Best Glassdoor Jobs Scrapers in 2026 (Updated)"
 slug: "best-glassdoor-jobs-scrapers"
 date: "2025-04-10T09:56:00.000Z"
 author: "Oliver Lompart"

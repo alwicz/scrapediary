@@ -1,5 +1,5 @@
 ---
-title: "7 Best Apollo Scrapers in 2025 (Updated)"
+title: "7 Best Apollo Scrapers in 2026 (Updated)"
 slug: "apollo-scrapers"
 date: "2025-08-04T09:20:00.000Z"
 author: "Oliver Lompart"

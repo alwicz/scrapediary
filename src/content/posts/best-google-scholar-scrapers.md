@@ -1,5 +1,5 @@
 ---
-title: "9 Best Google Scholar Scrapers in 2025 (Updated)"
+title: "9 Best Google Scholar Scrapers in 2026 (Updated)"
 slug: "best-google-scholar-scrapers"
 date: "2025-03-21T09:04:19.000Z"
 author: "Oliver Lompart"

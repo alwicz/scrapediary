@@ -1,5 +1,5 @@
 ---
-title: "9 Best GPT Scrapers in 2025 (Updated)"
+title: "9 Best GPT Scrapers in 2026 (Updated)"
 slug: "gpt-scrapers"
 date: "2025-08-06T12:25:00.000Z"
 author: "Oliver Lompart"

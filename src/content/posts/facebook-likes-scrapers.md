@@ -1,5 +1,5 @@
 ---
-title: "7 Best Facebook Likes Scrapers in 2025 (Updated Monthly)"
+title: "7 Best Facebook Likes Scrapers in 2026 (Updated Monthly)"
 slug: "facebook-likes-scrapers"
 date: "2025-08-12T07:38:15.000Z"
 author: "Oliver Lompart"

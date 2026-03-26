@@ -1,5 +1,5 @@
 ---
-title: "15 Best Twitch Scrapers in 2025 (Updated)"
+title: "15 Best Twitch Scrapers in 2026 (Updated)"
 slug: "best-twitch-scrapers"
 date: "2025-03-25T10:49:04.000Z"
 author: "Oliver Lompart"

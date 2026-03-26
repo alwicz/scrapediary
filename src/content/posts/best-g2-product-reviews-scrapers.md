@@ -1,5 +1,5 @@
 ---
-title: "9 Best G2 Product Reviews Scrapers in 2025 (Updated)"
+title: "9 Best G2 Product Reviews Scrapers in 2026 (Updated)"
 slug: "best-g2-product-reviews-scrapers"
 date: "2025-04-24T10:30:29.000Z"
 author: "Oliver Lompart"

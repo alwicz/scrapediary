@@ -1,5 +1,5 @@
 ---
-title: "7 Best Recipe Scrapers in 2025 (Updated)"
+title: "7 Best Recipe Scrapers in 2026 (Updated)"
 slug: "recipe-scrapers"
 date: "2025-05-09T13:44:00.000Z"
 author: "Oliver Lompart"

@@ -1,5 +1,5 @@
 ---
-title: "14 Best Email Scrapers in 2025 (Updated)"
+title: "14 Best Email Scrapers in 2026 (Updated)"
 slug: "best-email-scrapers"
 date: "2025-02-13T11:43:43.000Z"
 author: "Oliver Lompart"

@@ -1,5 +1,5 @@
 ---
-title: "7 Best Shopify Scrapers in 2025 (Updated)"
+title: "7 Best Shopify Scrapers in 2026 (Updated)"
 slug: "shopify-scrapers"
 date: "2025-08-11T07:36:00.000Z"
 author: "Oliver Lompart"

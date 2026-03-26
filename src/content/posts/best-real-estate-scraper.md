@@ -1,5 +1,5 @@
 ---
-title: "7 Best Real Estate Scraper in 2025 (Updated)"
+title: "7 Best Real Estate Scraper in 2026 (Updated)"
 slug: "best-real-estate-scraper"
 date: "2025-02-20T10:07:34.000Z"
 author: "Oliver Lompart"

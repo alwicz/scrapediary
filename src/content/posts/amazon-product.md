@@ -1,5 +1,5 @@
 ---
-title: "8 Best Amazon Product Scrapers in 2025 (Updated)"
+title: "8 Best Amazon Product Scrapers in 2026 (Updated)"
 slug: "amazon-product"
 date: "2025-08-06T09:24:00.000Z"
 author: "Oliver Lompart"

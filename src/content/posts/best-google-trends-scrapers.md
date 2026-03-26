@@ -1,5 +1,5 @@
 ---
-title: "9 Best Google Trends Scrapers in 2025 (Updated)"
+title: "9 Best Google Trends Scrapers in 2026 (Updated)"
 slug: "best-google-trends-scrapers"
 date: "2025-03-21T09:03:41.000Z"
 author: "Oliver Lompart"

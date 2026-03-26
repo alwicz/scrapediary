@@ -1,5 +1,5 @@
 ---
-title: "10 Best Website Screenshot Generator in 2025 (Updated)"
+title: "10 Best Website Screenshot Generator in 2026 (Updated)"
 slug: "best-website-screenshot-generator"
 date: "2025-04-16T12:41:32.000Z"
 author: "Oliver Lompart"

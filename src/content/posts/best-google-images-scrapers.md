@@ -1,5 +1,5 @@
 ---
-title: "6 Best Google Images Scrapers in 2025 (Updated)"
+title: "6 Best Google Images Scrapers in 2026 (Updated)"
 slug: "best-google-images-scrapers"
 date: "2025-03-20T09:28:28.000Z"
 author: "Oliver Lompart"

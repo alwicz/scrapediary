@@ -1,5 +1,5 @@
 ---
-title: "6 Best Eventbrite Scraper in 2025 (Updated)"
+title: "6 Best Eventbrite Scraper in 2026 (Updated)"
 slug: "best-eventbrite-scraper"
 date: "2025-04-23T09:55:00.000Z"
 author: "Oliver Lompart"

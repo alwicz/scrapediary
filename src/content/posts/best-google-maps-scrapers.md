@@ -1,5 +1,5 @@
 ---
-title: "\"10 Best Google Maps Scrapers in 2025: Complete Comparison & Reviews\""
+title: "\"10 Best Google Maps Scrapers in 2026: Complete Comparison & Reviews\""
 slug: "best-google-maps-scrapers"
 date: "2025-02-27T15:49:52.000Z"
 author: "Oliver Lompart"

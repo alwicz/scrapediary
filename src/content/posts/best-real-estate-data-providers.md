@@ -1,5 +1,5 @@
 ---
-title: "9 Best Real Estate Data Providers in 2025 (Updated)"
+title: "9 Best Real Estate Data Providers in 2026 (Updated)"
 slug: "best-real-estate-data-providers"
 date: "2025-02-20T10:06:48.000Z"
 author: "Oliver Lompart"

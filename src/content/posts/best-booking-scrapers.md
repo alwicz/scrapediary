@@ -1,5 +1,5 @@
 ---
-title: "8 Best Booking Scrapers in 2025 (Updated)"
+title: "8 Best Booking Scrapers in 2026 (Updated)"
 slug: "best-booking-scrapers"
 date: "2025-04-08T11:09:15.000Z"
 author: "Oliver Lompart"

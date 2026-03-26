@@ -1,5 +1,5 @@
 ---
-title: "20 Best Telegram Scrapers in 2025 (Updated)"
+title: "20 Best Telegram Scrapers in 2026 (Updated)"
 slug: "best-telegram-scrapers"
 date: "2025-03-24T13:31:00.000Z"
 author: "Oliver Lompart"
