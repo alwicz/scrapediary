@@ -131,6 +131,24 @@ async function processFile(filename, content) {
   // Replace all remaining __GHOST_URL__ references (internal links)
   processedBody = processedBody.replaceAll('__GHOST_URL__/', '/');
 
+  // Convert image + caption pattern to <figure>/<figcaption> HTML
+  // Pattern: ![alt](src)Caption text on same line
+  processedBody = processedBody.replace(
+    /!\[([^\]]*)\]\(([^)]+)\)([^\n]+)/g,
+    (match, alt, src, caption) => {
+      const trimmed = caption.trim();
+      if (!trimmed) {
+        return `\n<figure class="kg-card kg-image-card"><img class="kg-image" src="${src}" alt="${alt}" loading="lazy"></figure>\n`;
+      }
+      return `\n<figure class="kg-card kg-image-card kg-card-hascaption"><img class="kg-image" src="${src}" alt="${alt}" loading="lazy"><figcaption>${trimmed}</figcaption></figure>\n`;
+    }
+  );
+  // Also handle images on their own line (no caption)
+  processedBody = processedBody.replace(
+    /^!\[([^\]]*)\]\(([^)]+)\)$/gm,
+    '\n<figure class="kg-card kg-image-card"><img class="kg-image" src="$2" alt="$1" loading="lazy"></figure>\n'
+  );
+
   // Build new frontmatter
   const newFrontmatter = [
     '---',

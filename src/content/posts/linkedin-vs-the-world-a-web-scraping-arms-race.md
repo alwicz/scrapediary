@@ -9,7 +9,9 @@ updatedDate: "2020-08-15T12:17:39.000Z"
 LinkedIn is quickly becoming the most valuable source of business contact details in the world, with the company experiencing massive growth in users over the past few years. As a business LinkedIn’s revenue model has two components, the first is the tried and tested ad model, where advertisers pay for eyeballs and clicks. The second though is much more interesting. The company has essentially become the middleman for making connections between professionals. 
 
 With tools like Sales Navigator, Recruiter and Premium plans, LinkedIn creates value when professionals connect and do business, whether that's through doing a deal, making a hire or some other relationship. Of course to capture value through these tools,  they need to make it increasingly difficult to make these connections without them, which they do by restricting who you can search for and how you can interact on the platform.
-![](https://www.scrapediary.com/content/images/2020/07/linkedin-membership.png)
+
+<figure class="kg-card kg-image-card"><img class="kg-image" src="https://www.scrapediary.com/content/images/2020/07/linkedin-membership.png" alt="" loading="lazy"></figure>
+
 [Source: LinkedIn Statistics](https://news.linkedin.com/about-us#statistics)
 
 Rather than openly pointing to this fact, LinkedIn muddies the waters by making a claim that such restrictions are to protect users' privacy. Claims about privacy from a social media platform are usually best taken with a grain of salt, but you could imagine the company holding back a tsunami of bots, spammers and unsolicited cold sales approaches from unsuspecting users. That line of thinking of course only works if you assume that people who use LinkedIn's premium search tools would never take users email addresses and do something like entering them into a CRM for sales purposes.
@@ -23,7 +25,9 @@ What we're seeing now is an out in the open arms race between third party softwa
 Understanding what makes scraping LinkedIn hard gives us a window into what a possible future might look like on the web, with more websites deploying anti-web scraping technology. In short, LinkedIn uses an array of techniques. Some are common such as blocking IP addresses of high-traffic bots, slow-loading and hiding elements on some pages and deliberately obscuring the website design to make pattern recognition hard.
 
 What is new is it's now fairly clear they’re also able to detect browser information, blocking bots that are running on commonly used headless chrome browsers (think internet browser with monitor display). They even seem to have the ability to detect chrome browser plugins, which many LinkedIn web scrapers use to essentially control your browser window and run the automation on your own computer. Proof of that is in the warning notifications served to those using them, identifying the specific tool they're using.
-![](https://www.scrapediary.com/content/images/2020/07/0--2-.jpeg)
+
+<figure class="kg-card kg-image-card"><img class="kg-image" src="https://www.scrapediary.com/content/images/2020/07/0--2-.jpeg" alt="" loading="lazy"></figure>
+
 [Source: Third Party Apps Could Seriously Damage Your LinkedIn Health](https://www.linkedin.com/pulse/warning-3rd-party-apps-could-seriously-damage-your-linkedin-cooper/)
 
 Innovation on LinkedIn's side seems to rule out the following types of web-scraping tools;

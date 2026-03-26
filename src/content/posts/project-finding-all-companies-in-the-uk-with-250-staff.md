@@ -11,7 +11,9 @@ Over the past couple of years, governments have been thinking about ways to tack
 To tackle this, governments around the world are increasing the reporting requirements on companies to disclose this information to the public. In the UK, the government publishes a searchable directory of these reports on their website. In doing so, a new window into many of the nation's largest companies has been opened. For those working top-of-funnel in the B2B space, this creates a massive opportunity to, for the first time, target companies based on their staff size with official validated data. 
 
 At the time of writing Gov.uk maintains a list of over 12 thousand businesses who have or are expected to submit a gender pay gap report. For each business, their industry, staffing level and key personnel details are made public, as well each report submitted since reporting was made law in 2018. This treasure trove of data is truely massive, and if want to make use of it at scale we're going to need a tool to organise this data for us. 
-![](https://www.scrapediary.com/content/images/2020/07/Screen-Shot-2020-07-14-at-7.44.03-pm.png)
+
+<figure class="kg-card kg-image-card"><img class="kg-image" src="https://www.scrapediary.com/content/images/2020/07/Screen-Shot-2020-07-14-at-7.44.03-pm.png" alt="" loading="lazy"></figure>
+
 This is where web-scraping comes in. If we want a list of all companies in the UK with more than 250 staff, or we just want to filter it using our own filters, we're going to need to get this data into a CSV format or something similar. To do so, we're going to build a web scraper to visit each individual company page, extract the data and compile it into a format we can use. In building this tool, we'll cover the key concepts of evaluating a website, designing and finally building the scraper. 
 
 ### Evaluating a Website for Scrape-ability
@@ -29,7 +31,9 @@ Our web scraper is going to simulate a real user interacting with the website, s
 The layout of the website is "paginated", which means rather than displaying all 12 thousand results on one single page, they display 20 results per page and provide "Next Page" and "Previous Page" buttons to help you navigate through them. For each business in the list, a summary is provided including their name, address and industry, but they withhold their company size and the person responsible for the report. 
 
 In order to find the information we want, we would need to click on each business name and look at their individual listing. On the individual listing page we find a list of pay gap reports. Clicking on these reports gives us the information we're looking for, namely the employer size and the person responsible.
-![](https://www.scrapediary.com/content/images/2020/07/Screen-Shot-2020-07-15-at-9.38.55-am.png)
+
+<figure class="kg-card kg-image-card"><img class="kg-image" src="https://www.scrapediary.com/content/images/2020/07/Screen-Shot-2020-07-15-at-9.38.55-am.png" alt="" loading="lazy"></figure>
+
 To sum up, this means we need any potential scraper to be able to do the following;
 
 1. Search for all businesses and click "Next" through each page to collect all business summary information (including links to their individual pages) 
@@ -52,11 +56,15 @@ You can see from inspecting the links above, to find the pay gap report for any 
 ### Building the Scraper
 
 To finalise part one of this project, we're going to begin to work out how a web scraper would find the information we want on this website. A web scraper works by navigating the site just like a real user would, but it won't be able to view it like we do on a screen. Instead, our scraper will be looking at the website's code - the HTML and CSS that makes up the site.
-![](https://www.scrapediary.com/content/images/2020/07/Screen-Shot-2020-07-09-at-5.05.53-pm.png)
+
+<figure class="kg-card kg-image-card"><img class="kg-image" src="https://www.scrapediary.com/content/images/2020/07/Screen-Shot-2020-07-09-at-5.05.53-pm.png" alt="" loading="lazy"></figure>
+
 Using the Developer Tools in our web browser, we can view this code alongside the website and work out how our scraper should sift through this information. For this particular site, we can see that the information we want is contained in a list that organises companies down the page. Each list item <li> has a class "document" it uses to style each item. This is extremely handy as we can tell our webscraper to look at each list item with the "document" class to find the details we need.  
 
 Expanding just one of these list items lets us work out what information we need to collect on each individual company.
-![](https://www.scrapediary.com/content/images/2020/07/Screen-Shot-2020-07-09-at-5.14.03-pm.png)
+
+<figure class="kg-card kg-image-card"><img class="kg-image" src="https://www.scrapediary.com/content/images/2020/07/Screen-Shot-2020-07-09-at-5.14.03-pm.png" alt="" loading="lazy"></figure>
+
 For an individual company, we want to find the HTML tags that the scraper needs to look at to find the information we want. Breaking this down to its individual components gives us;
 
 - The Company Name - This is given by the <a> element under the heading tag <h2>

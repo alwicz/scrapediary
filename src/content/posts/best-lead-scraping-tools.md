@@ -7,7 +7,9 @@ updatedDate: "2025-02-12T11:46:12.000Z"
 ---
 
 Finding the best lead scraping tools can make a huge difference in growing your business and generating qualified leads. **The right scraping tool will help you automatically collect contact details, company information, and social data from websites to build targeted prospect lists.**
-![Best Lead Scraping Tools](/images/2025-02-Best-Lead-Scraping-Tools.jpg)9 Best Lead Scraping Tools in 2025
+
+<figure class="kg-card kg-image-card kg-card-hascaption"><img class="kg-image" src="/images/2025-02-Best-Lead-Scraping-Tools.jpg" alt="Best Lead Scraping Tools" loading="lazy"><figcaption>9 Best Lead Scraping Tools in 2025</figcaption></figure>
+
 Lead scraping saves countless hours of manual research while helping sales teams connect with potential customers more effectively. Whether you're looking to scale your outreach or build a robust sales pipeline, these proven tools make lead generation fast and simple.
 
 ## 1. Apify

@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL;
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const authors = [...new Set(posts.map(p => p.data.author))];
+  return authors.map(author => ({
+    params: { author: author.toLowerCase().split(' ')[0] },
+    props: {
+      author,
+      posts: posts
+        .filter(p => p.data.author === author)
+        .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()),
+    },
+  }));
+}
+
+const { author, posts } = Astro.props;
+
+function formatDate(dateStr: string) {
+  return new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+---
+
+<BaseLayout title={`${author} - ScrapeDiary`} bodyClass="author-template is-head-stacked">
+  <main id="gh-main" class="gh-main gh-outer">
+    <div class="gh-inner">
+      <div class="gh-wrapper">
+        <section class="gh-section">
+          <h2 class="gh-section-title">{author}</h2>
+          <p style="color: var(--color-secondary-text); margin-bottom: 2rem;">{posts.length} {posts.length === 1 ? 'issue' : 'issues'}</p>
+
+          <div class="gh-feed">
+            {posts.map(post => (
+              <article class="gh-card post no-image">
+                <a class="gh-card-link" href={`${base}${post.data.slug}/`}>
+                  <header class="gh-card-header">
+                    <h2 class="gh-card-title">{post.data.title}</h2>
+                  </header>
+                  <footer class="gh-card-meta">
+                    <time class="gh-card-date" datetime={post.data.date.slice(0,10)}>{formatDate(post.data.date)}</time>
+                    <span class="gh-card-duration">5 min read</span>
+                  </footer>
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
